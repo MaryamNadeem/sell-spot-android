@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "123135194966",
+    "firebase_url": "https://sell-spot-testing.firebaseio.com",
+    "project_id": "sell-spot-testing",
+    "storage_bucket": "sell-spot-testing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123135194966:android:5a5bcc4102d19c1c7d88f7",
+        "android_client_info": {
+          "package_name": "com.sellspot.app.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123135194966-2kuok75k3f51n122elbpqthfe6h3rpij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sellspot.app.staging",
+            "certificate_hash": "15ac2db7ed5630a9de527381ea354c52720d1f75"
+          }
+        },
+        {
+          "client_id": "123135194966-qcu5m9ntqlo5b5r1tugdal6ibtetub8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqUlJt5VHZP1r2C-uAcCnH01HBoshUHYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123135194966-qcu5m9ntqlo5b5r1tugdal6ibtetub8c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "123135194966-5p7iffmhaav431obapuppqetlm9f93d9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mahnoorkhan.Sell-Spot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

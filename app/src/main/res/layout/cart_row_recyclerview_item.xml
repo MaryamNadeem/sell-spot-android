@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    >
+
+    <io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:ccll_corner_cut_size="20dp"
+        android:foreground="@drawable/curved_grid_view_item">
+
+        <FrameLayout
+            android:layout_width="155dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/cartItemItemImage"
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/emptyimage"
+                />
+            <TextView
+                android:id="@+id/itemPrice"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="bottom|center"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:text="44"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/black"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageButton
+                android:id="@+id/itemDelete"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/cross_border"
+                android:src="@mipmap/close" />
+        </FrameLayout>
+    </io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout>
+
+</LinearLayout>

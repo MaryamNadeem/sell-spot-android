@@ -1,0 +1,30 @@
+package com.sellspot.app.Models;
+import java.io.Serializable;
+
+public class Cart implements Serializable {
+    private String userid;
+    private String username;
+
+    public Cart() {}
+
+    public Cart(String userid, String username) {
+        this.userid = userid;
+        this.username = username;
+    }
+
+    public String getUserid() {
+        return userid;
+    }
+
+    public void setUserid(String userid) {
+        this.userid = userid;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item>
+        <shape android:shape="rectangle"
+            tools:ignore="MissingDefaultResource">
+            <solid android:color="@color/appthemecolor"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/logo" />
+</layer-list>

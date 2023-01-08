@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tabimage"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:src="@mipmap/cart_black"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:id="@+id/tablabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tab Label"
+        android:fontFamily="@font/nunito"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="10sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cartCount"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:text="0"
+        android:textSize="8sp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@drawable/cart_count_back"/>
+
+</FrameLayout>

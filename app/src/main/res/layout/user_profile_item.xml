@@ -1,0 +1,56 @@
+  <io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+android:orientation="vertical"
+app:ccll_corner_cut_size="20dp"
+android:foreground="@drawable/curved_grid_view_item">
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <LinearLayout
+              android:id="@+id/mainLayout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:background="#F2F2F7">
+
+              <ImageView
+                  android:id="@+id/userProfileIcon"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:scaleType="centerCrop"
+                  android:src="@mipmap/emptyimage"
+                  />
+
+              <TextView
+                  android:id="@+id/priceLabel"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textAlignment="center"
+                  android:textColor="@color/black"
+                  android:fontFamily="@font/nunito_semibold"
+                  android:textSize="12sp"
+                  android:text="RS 2580"
+                  />
+          </LinearLayout>
+
+          <TextView
+              android:id="@+id/userProfileStatus"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Order placed for this product"
+              android:textColor="@color/white"
+              android:fontFamily="@font/nunito_extrabold"
+              android:textSize="12sp"
+              android:layout_gravity="center"
+              android:textAlignment="center"
+              android:visibility="invisible"
+              />
+      </FrameLayout>
+
+
+</io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout>
